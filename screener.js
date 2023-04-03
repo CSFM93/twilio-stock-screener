@@ -22,8 +22,8 @@ const sendNotification = (stock) => {
 
 const detectBreakout = (levels, previousCandle, lastCandle) => {
     for (const level of levels) {
-        const cond1 = previousCandle.column('o').values[0] < level;
-        const cond2 = lastCandle.column('o').values[0] > level;
+        const cond1 = previousCandle.column('o').values[0] < level[1];
+        const cond2 = lastCandle.column('o').values[0] > level[1];
         if (cond1 && cond2) {
             return true;
         }
