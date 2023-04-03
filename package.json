@@ -1,0 +1,19 @@
+{
+  "name": "stock-screener",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "danfojs-node": "^1.1.2",
+    "dotenv": "^16.0.3",
+    "puppeteer": "^19.8.2",
+    "superagent": "^8.0.9",
+    "twilio": "^4.9.0"
+  }
+}
